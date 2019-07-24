@@ -61,8 +61,12 @@ function watchTask() {
     notify: false
   });
   watch(sassSourcePath, sassDev);
+<<<<<<< HEAD
   watch('./source/sass/**/*.scss', sassDev);
   watch(['./build/*.html', './build/*.css']).on('change', browserSync.reload);
+=======
+  watch(['public/*']).on('change', browserSync.reload);
+>>>>>>> master
 }
 
 // Exporting watch task
