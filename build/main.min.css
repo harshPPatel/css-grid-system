@@ -7,3 +7,9 @@
 .u-fluid-container {
   width: 99.5%;
   margin: 0 auto; }
+
+.u-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem; }
