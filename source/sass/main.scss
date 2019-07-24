@@ -1,5 +1,11 @@
-// Base Style (Desktop)
-@import './grid-base';
+// Helpers
+@import './00-helpers/00-helpers-dir';
 
-// Mobile Style
-@import './grid-mobile';
+// Container
+@import './01-container/01-container-dir';
+
+// Row
+@import './02-row/02-row-dir';
+
+// Columns
+@import './03-columns/03-columns-dir';

@@ -1,0 +1,14 @@
+// Normal Style
+@for $i from 1 to 13 {
+  .u-col-#{$i} {
+    grid-column-start: auto;
+    grid-column-end: span #{$i};
+  }
+}
+
+// Offset Style
+@for $i from 1 to 12 {
+  .u-offset-#{$i} {
+    grid-column-start: #{$i + 1};
+  }
+}
