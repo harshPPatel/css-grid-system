@@ -1,4 +1,4 @@
-// Normal Style
+// Normal Style - Desktop
 @for $i from 1 to 13 {
   .u-col-#{$i} {
     grid-column-start: auto;
@@ -6,9 +6,17 @@
   }
 }
 
-// Offset Style
+// Offset Style - Desktop
 @for $i from 1 to 12 {
   .u-offset-#{$i} {
     grid-column-start: #{$i + 1};
+  }
+}
+
+// Normal Style - Mobile
+@for $i from 1 to 5 {
+  .u-col-sm-#{$i} {
+    grid-column-start: auto !important;
+    grid-column-end: span #{$i} !important;
   }
 }
