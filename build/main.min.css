@@ -13,3 +13,51 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1rem; }
+
+.u-col-1 {
+  grid-column-start: auto;
+  grid-column-end: span 1; }
+
+.u-col-2 {
+  grid-column-start: auto;
+  grid-column-end: span 2; }
+
+.u-col-3 {
+  grid-column-start: auto;
+  grid-column-end: span 3; }
+
+.u-col-4 {
+  grid-column-start: auto;
+  grid-column-end: span 4; }
+
+.u-col-5 {
+  grid-column-start: auto;
+  grid-column-end: span 5; }
+
+.u-col-6 {
+  grid-column-start: auto;
+  grid-column-end: span 6; }
+
+.u-col-7 {
+  grid-column-start: auto;
+  grid-column-end: span 7; }
+
+.u-col-8 {
+  grid-column-start: auto;
+  grid-column-end: span 8; }
+
+.u-col-9 {
+  grid-column-start: auto;
+  grid-column-end: span 9; }
+
+.u-col-10 {
+  grid-column-start: auto;
+  grid-column-end: span 10; }
+
+.u-col-11 {
+  grid-column-start: auto;
+  grid-column-end: span 11; }
+
+.u-col-12 {
+  grid-column-start: auto;
+  grid-column-end: span 12; }

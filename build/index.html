@@ -19,6 +19,9 @@
       .u-row {
         background-color: lightblue;
       }
+      .u-row > div {
+        background-color: lightgreen;
+      }
       div {
         height: auto;
         min-height: 100px;
@@ -27,7 +30,10 @@
   </head>
   <body>
     <div class="u-container">
-      <div class="u-row"></div>
+      <div class="u-row">
+        <div class="u-col-6"></div>
+        <div class="u-col-6"></div>
+      </div>
     </div>
   </body>
 </html>

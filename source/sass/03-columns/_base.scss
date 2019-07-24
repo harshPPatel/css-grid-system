@@ -1,0 +1,6 @@
+@for $i from 1 to 13 {
+  .u-col-#{$i} {
+    grid-column-start: auto;
+    grid-column-end: span #{$i};
+  }
+}
