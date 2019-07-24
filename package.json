@@ -1,0 +1,30 @@
+{
+  "name": "css-grid-system",
+  "version": "1.0.0",
+  "description": "Responsive Grid System created with CSS Grid",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshPPatel/css-grid-system.git"
+  },
+  "author": "harshPPatel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshPPatel/css-grid-system/issues"
+  },
+  "homepage": "https://github.com/harshPPatel/css-grid-system#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.12.0"
+  }
+}
