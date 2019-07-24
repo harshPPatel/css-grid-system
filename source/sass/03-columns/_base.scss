@@ -20,3 +20,10 @@
     grid-column-end: span #{$i} !important;
   }
 }
+
+// Offset Style - Mobile
+@for $i from 1 to 4 {
+  .u-offset-sm-#{$i} {
+    grid-column-start: #{$i + 1} !important;
+  }
+}

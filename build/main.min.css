@@ -113,3 +113,12 @@
 .u-col-sm-4 {
   grid-column-start: auto !important;
   grid-column-end: span 4 !important; }
+
+.u-offset-sm-1 {
+  grid-column-start: 2 !important; }
+
+.u-offset-sm-2 {
+  grid-column-start: 3 !important; }
+
+.u-offset-sm-3 {
+  grid-column-start: 4 !important; }
