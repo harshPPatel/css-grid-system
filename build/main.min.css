@@ -61,3 +61,36 @@
 .u-col-12 {
   grid-column-start: auto;
   grid-column-end: span 12; }
+
+.u-offset-1 {
+  grid-column-start: 2; }
+
+.u-offset-2 {
+  grid-column-start: 3; }
+
+.u-offset-3 {
+  grid-column-start: 4; }
+
+.u-offset-4 {
+  grid-column-start: 5; }
+
+.u-offset-5 {
+  grid-column-start: 6; }
+
+.u-offset-6 {
+  grid-column-start: 7; }
+
+.u-offset-7 {
+  grid-column-start: 8; }
+
+.u-offset-8 {
+  grid-column-start: 9; }
+
+.u-offset-9 {
+  grid-column-start: 10; }
+
+.u-offset-10 {
+  grid-column-start: 11; }
+
+.u-offset-11 {
+  grid-column-start: 12; }
